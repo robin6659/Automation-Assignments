@@ -29,7 +29,7 @@ public class TestSample extends Base {
 	public static void main(String[] args) {
 		TestSample testSample = new TestSample();
 		testSample.initializeBrowser();
-		//		testSample.test1();
+		//testSample.test1();
 		testSample.test2();
 		//testSample.driver.quit(); 
 	}
