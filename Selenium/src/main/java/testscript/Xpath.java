@@ -21,7 +21,7 @@ public class Xpath extends Base {
 
 	}
 	public void startswith() {
-		// Syntax //tag[starts-with(@id,'value')] jus starting needed
+		// Syntax //tag[starts-with(@attribute,'value')] jus starting needed
 		WebElement sw1 = driver.findElement(By.xpath("//label[starts-with(@for,'inputEmail4')]"));
 
 	}
