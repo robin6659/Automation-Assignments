@@ -60,6 +60,7 @@ public class Locators extends Base {
 		WebElement partiallinktext5=driver.findElement(By.partialLinkText("Checkbox D Select I"));
 		WebElement partiallinktext6=driver.findElement(By.partialLinkText("Select I"));
 	}
+	
 	public static void main (String[] args) 
 	{
 

@@ -35,8 +35,8 @@ public class RadioButton extends Base {
 	public static void main(String[] args) {
 		RadioButton radioButton = new RadioButton();
 		radioButton.initializeBrowser();
-		//radioButton.radioButtonHandling();
-		radioButton.radioConditionalHandling();
+		radioButton.radioButtonHandling();
+//		radioButton.radioConditionalHandling();
 		//radioButton.driver.quit(); 
 	}
 }
